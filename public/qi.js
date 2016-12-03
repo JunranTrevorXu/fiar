@@ -1414,7 +1414,7 @@ function win() {
 				var _i = this.id.slice(0,pos);
 				var _j = this.id.slice(pos+1,this.id.length);
 				//alert(_i+":"+_j);
-				alert(localStorage.getItem('pl'));
+				//alert(localStorage.getItem('pl'));
 				
 				if (localStorage.getItem('pl') == 0) {
 					
