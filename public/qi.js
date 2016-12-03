@@ -1428,7 +1428,7 @@ function win() {
 						document.getElementById(this.id).appendChild(_zi);
 						if (win()) {
 							
-							alert("PLAYER WINS!!!");
+							setTimeout(function() {alert("PLAYER WINS!!!");}, 500);
 						}
 						else {
 							
