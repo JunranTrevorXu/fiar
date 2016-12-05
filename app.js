@@ -15,7 +15,7 @@ var cfenv = require('cfenv');
 
 
 
-var MongoClient = require('mongodb').MongoClient;
+var MongoClient = require('./node_modules/mongodb').MongoClient;
 // create a new express server
 var app = express();
 
