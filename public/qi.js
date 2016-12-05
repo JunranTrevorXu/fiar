@@ -14,7 +14,7 @@
 				console.log(err);
 			});
 		}
-	}
+	
 	
 	document.getElementById("pvp").onclick = function () {
 		
@@ -27,7 +27,7 @@
 				console.log(err);
 			});
 		}
-	}
+	
 	
 	
 	function createXHR(){
