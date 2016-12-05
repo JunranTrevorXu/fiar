@@ -15,11 +15,11 @@ var cfenv = require('cfenv');
 
 
 
-var MongoClient = require('mongodb').MongoClient;
+//var MongoClient = require('mongodb').MongoClient;
 // create a new express server
 var app = express();
 
-
+/*
 var pvp = 0;
 var pve = 0;
 var url = 'mongodb://admin:GUBDQEQPNICZVOET@sl-us-dal-9-portal.3.dblayer.com:17399,sl-us-dal-9-portal.0.dblayer.com:17399/admin?ssl=true';
@@ -71,7 +71,7 @@ var insertDocumentpve = function(db, callback) {
   });
 };
 
-
+*/
 
 
 
