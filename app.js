@@ -7,8 +7,8 @@
 // This application uses express as its web server
 // for more info, see: http://expressjs.com
 var express = require('express');
-var MongoClient = require('mongodb').MongoClient;
-var assert = require('assert');
+//var MongoClient = require('mongodb').MongoClient;
+//var assert = require('assert');
 // cfenv provides access to your Cloud Foundry environment
 // for more info, see: https://www.npmjs.com/package/cfenv
 var cfenv = require('cfenv');
