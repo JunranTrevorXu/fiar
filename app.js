@@ -7,13 +7,24 @@
 // This application uses express as its web server
 // for more info, see: http://expressjs.com
 var express = require('express');
-
+var MongoClient = require('mongodb').MongoClient;
+var assert = require('assert');
 // cfenv provides access to your Cloud Foundry environment
 // for more info, see: https://www.npmjs.com/package/cfenv
 var cfenv = require('cfenv');
 
 // create a new express server
 var app = express();
+
+app.get('/pvp', function(req, res) {
+	
+	console.log("receivepvp");
+});
+
+app.get('/pve', function(req, res) {
+	
+	console.log("receivepve");
+});
 
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/public'));
